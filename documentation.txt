@@ -1,0 +1,42 @@
+# Conditional Featured Image Plugin Documentation by Zainab Abdulraheem
+#my First Plugin
+
+## Overview
+The "Conditional Featured Image" plugin is a custom WordPress plugin that allows you to control the display of featured images on single post or page views. With this plugin, you can choose whether to show or hide the featured image for each individual post or page, providing you with more flexibility in designing your website.
+
+## Installation
+To install the "Conditional Featured Image" plugin, follow these steps:
+
+1. Download the plugin files from [link-to-plugin](https://github.com/Zee-Nana/Conditionally-Display-image-on-postpage).
+2. Extract the downloaded ZIP file.
+3. Connect to your WordPress site using FTP or any file manager provided by your hosting provider.
+4. Navigate to the `wp-content/plugins` directory in your WordPress installation.
+5. Upload the extracted plugin folder to the `plugins` directory.
+6. Log in to your WordPress admin dashboard.
+7. Go to the "Plugins" section.
+8. Find the "Conditional Featured Image" plugin in the list.
+9. Click the "Activate" button to enable the plugin.
+
+Once activated, you'll be able to utilize the features of the "Conditional Featured Image" plugin.
+
+## Usage
+### Setting the Display of Featured Images
+1. Create or edit a post or page in your WordPress admin dashboard.
+2. On the post or page edit screen, you'll find a "Conditional Featured Image" meta box in the sidebar.
+3. Inside the meta box, there will be a checkbox labeled "Display featured image on single view."
+4. Check the checkbox if you want the featured image to be shown on the single view of the post or page.
+5. Uncheck the checkbox if you want to hide the featured image on the single view.
+6. Save or update the post or page to apply the changes.
+
+### Modifying the Featured Image Display
+The "Conditional Featured Image" plugin alters the display of featured images on single views based on your settings. By default, WordPress displays the featured image on single post or page views. However, with this plugin, you have the ability to override that behavior for each post or page.
+
+The plugin provides a filter that controls the display of featured images on single views. By default, the filter is applied to the `post_thumbnail_html` filter hook. If the "Display featured image on single view" checkbox is checked for a specific post or page, the featured image will be displayed. If the checkbox is unchecked, the featured image will be hidden.
+
+You can customize the plugin code to modify the behavior or apply the filter to a different hook if needed.
+
+## Support and Feedback
+If you encounter any issues or have any suggestions for improving the "Conditional Featured Image" plugin, please feel free to contact us through our support channels. We appreciate your feedback and are committed to enhancing the functionality and usability of the plugin.
+
+## Conclusion
+The "Conditional Featured Image" plugin provides a simple and effective way to control the display of featured images on single post or page views in WordPress. By allowing you to choose whether to show or hide the featured image on a per-post or per-page basis, this plugin gives you greater flexibility in designing your website.
